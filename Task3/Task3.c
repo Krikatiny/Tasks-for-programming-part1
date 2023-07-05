@@ -8,7 +8,7 @@ int main(){
     printf("Enter p (p <= 30): ");
     scanf("%d", &num);
 
-    if(num >= 30) {
+    if(num <= 30) {
         //2^p
         result = pow(2, num);
 
